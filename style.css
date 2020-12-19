@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  font-family: Nunito;
+}
+
+#app {
+  background: linear-gradient(130deg, #590995, #c62a88);
+  background-size: 100% 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.titleName {
+  color: white;
+  font-size: 4em;
+  margin-bottom: 0.5em;
+  padding-top: 1em;
+}
+
+.titleDesc {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.1em;
+}
+
+.inputDiv {
+  text-align: center;
+  color: white;
+  display: grid;
+  justify-content: center;
+  margin-top: 3em;
+  grid-row-gap: 0.5em;
+}
+
+.inputDiv label{
+  font-size: 1.2em;
+}
+
+.inputDiv input{
+  background-color: #c6ebc9;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 2em;
+  padding-bottom: 3.7em;
+}
+
+.submitBtn {
+  color: white;
+  font-size: 1.2em;
+  background-color: #150485;
+  border-style: hidden;
+  border-radius: 30px; 
+  padding: 0.5em 1em;
+}
+
+.submitBtn:hover {
+
+}
+
+#nickname {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding-bottom: 2em;
+}
