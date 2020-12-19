@@ -1,0 +1,19 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+</style>
+
+<div id="app">
+  <div class="title">
+    <h1 class="titleName">CyberPunk Name Generator</h1>
+    <h3 class="titleDesc">Give us your name and let us find your CyberPunk Name</h3>
+  </div>  
+  <div class="inputDiv">
+    <label for="name">Name:</label>
+    <input type="text" id="nameInput" name="nameInput" />
+    <label for="lastName">Lastname:</label>
+    <input type="text" id="lastNameInput" name="lastNameInput"/>
+  </div>
+  <div class="submit">
+    <button class="submitBtn" type="submit" onClick={getName()}>Submit</button>
+  </div>
+</div>
